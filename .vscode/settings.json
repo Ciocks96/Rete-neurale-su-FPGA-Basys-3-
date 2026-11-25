@@ -1,0 +1,16 @@
+{
+    // Python del progetto: .venv (collegamento a .venv.nosync, che iCloud non sincronizza)
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.executeInFileDir": true,
+    "python.analysis.extraPaths": ["${workspaceFolder}/python"],
+    // Code Runner (pulsante ▷ "Run Code")
+    "code-runner.executorMap": {
+        "python": "\"$workspaceRoot/.venv/bin/python\" -u $fullFileName"
+    },
+    "code-runner.fileDirectoryAsCwd": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        ".venv.nosync": true
+    }
+}
