@@ -33,7 +33,3 @@ pip install -r requirements.txt
 cd python
 python quantizza.py      # oppure addestra.py, esporta.py, ...
 ```
-
-## Riferimenti
-
-Come traccia per l'architettura abbiamo consultato il progetto *MNIST-Neural-Network-On-FPGA* (rete 64-32-10 su Digilent Nexys 3).
